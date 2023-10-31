@@ -56,13 +56,9 @@ public class PlayerMovement : MonoBehaviour
         player.Move(move * Time.deltaTime * moveSpeed);
 
         // Changes the height position of the player..
-        if (jumpAction.triggered)
-        {
-            Debug.Log("JumpAction is triggered");
-        }
+   
         if (jumpAction.triggered && isGrounded)
         {
-            Debug.Log("Both conditions are met. Player should jump");
             position.y += 6.0f;     //Change to acceptable jump
         }
 
