@@ -11,6 +11,9 @@ TagManager:
   - Wood
   - Leaf
   - Axe
+  - Meat
+  - Drinkable
+  - Sea
   layers:
   - Default
   - TransparentFX

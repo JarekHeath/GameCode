@@ -26,11 +26,7 @@ public class TreeCode : MonoBehaviour
         damageTimer += Time.deltaTime;
     }
 
-    //Function where tree loses a health if interacted with an axe and damage timer is over 1.0f
-    //Damage timer goes back to zero
-    //Check if health is at or below zero.
-    //If so, then create two wood gameobjects and one leaf.
-    //Destroy tree gameobject.
+    
 
     private void OnTriggerEnter(Collider collision)
     {

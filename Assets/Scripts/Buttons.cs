@@ -22,6 +22,10 @@ public class Buttons : MonoBehaviour
         SceneManager.LoadScene("Controls");
     }
 
+    public void Objective()
+    {
+        SceneManager.LoadScene("Objective");
+    }
     public void Credits()
     {
         SceneManager.LoadScene("Credits");
@@ -30,6 +34,7 @@ public class Buttons : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+        UnityEditor.EditorApplication.isPlaying = false;
     }
 
     public void New(bool answer)

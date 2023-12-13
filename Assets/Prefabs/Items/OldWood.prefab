@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2758378034397149063}
   - component: {fileID: 7930255515166054774}
   - component: {fileID: 8359666758536074984}
+  - component: {fileID: -2062820110205840502}
   m_Layer: 0
   m_Name: OldWood
   m_TagString: Wood
@@ -100,7 +101,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
@@ -133,3 +134,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &-2062820110205840502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4785173829208932182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061db183a15da77478a9e4791ba3ae33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

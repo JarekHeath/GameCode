@@ -961,9 +961,27 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Main Menu",
+                    "name": "Exit",
                     "type": "Button",
                     "id": "663dd283-a367-4fdc-a351-1982bdce19de",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Eat",
+                    "type": "Button",
+                    "id": "4a51bd8b-67b8-4db0-a021-4b63b0794b99",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drink",
+                    "type": "Button",
+                    "id": "31a67535-2505-4144-a94b-0901f8fa7df0",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -1209,7 +1227,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Main Menu",
+                    "action": "Exit",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dec043b6-d75f-4e92-bcd8-88b7a4b24690",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Eat",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08f51894-dd5f-493f-b17e-9cfcc1bebe6b",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drink",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
