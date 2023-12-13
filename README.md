@@ -23,7 +23,7 @@ Raft Image: <br>
 https://opengameart.org/content/animated-pixel-art-raft-sprite <br>
 Inventory Tutorial: <br>
 https://www.youtube.com/watch?v=geq7lQSBDAE&list=PLhrayuv80FeWPrco0bqfYSHDifVB2PXpW&index=46 <br>
-Videos 45-47 in this playlist. <br>
+ - Videos 45-47 in this playlist. <br>
 Chicken Sound: <br>
 https://opengameart.org/content/chicken-sound-effect <br>
 Fox Sound: <br>
